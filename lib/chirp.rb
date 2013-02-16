@@ -1,11 +1,8 @@
 require "net/http"
 require "uri"
+require "chirp/experiment"
 
 module Chirp
-
-  def self.included(base)
-    puts "Including chirp into #{ base }..."
-  end
 
   CHIRP_API_HOST = "http://localhost:3000"
 

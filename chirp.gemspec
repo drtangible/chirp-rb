@@ -13,6 +13,6 @@ Gem::Specification.new do |s|
   s.summary     = "Ruby client for Chirp, an A/B testing service."
   s.description = "Ruby client for Chirp, an A/B testing service."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc", "lib/chirp.rb"]
   s.test_files = Dir["test/**/*"]
 end
