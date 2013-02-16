@@ -3,6 +3,10 @@ require "uri"
 
 module Chirp
 
+  def self.included(base)
+    puts "Including chirp into #{ base }..."
+  end
+
   CHIRP_API_HOST = "http://localhost:3000"
 
   def experiment(slug, &block)
