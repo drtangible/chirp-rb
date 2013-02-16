@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Chirp::VERSION
   s.authors     = ["Dan Gilbert"]
   s.email       = ["danielcgilbert@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "www.drtangible.com"
   s.summary     = "Ruby client for Chirp, an A/B testing service."
   s.description = "Ruby client for Chirp, an A/B testing service."
 
